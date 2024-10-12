@@ -399,8 +399,23 @@ const config = {
     }
 };
 
-const game = new Phaser.Game(config);
+fetch("./bitecs.0.3.40.min.js")
+.then(a => a.text())
+.then(a => {
+    eval(a);
+    const {
+        createWorld,
+        Types,
+        defineComponent,
+        defineQuery,
+        addEntity,
+        addComponent,
+        pipe,
+    } = bitecs;
 
+    const game = new Phaser.Game(config);
+})
+            
 </script>
 
 
