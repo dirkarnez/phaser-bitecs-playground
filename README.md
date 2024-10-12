@@ -1,5 +1,5 @@
-[phaser-minimal-template](https://dirkarnez.github.io/phaser-minimal-template/)
-===============================================================================
+[phaser-bitecs-playground](https://dirkarnez.github.io/phaser-bitecs-playground/)
+=================================================================================
 
 ### Tutorials
 - [Top Down Vehicle Steering & Movement in ECS with Matter.js and Phaser 3 - YouTube](https://www.youtube.com/watch?v=BiGps58X1h8)
